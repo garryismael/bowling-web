@@ -5,7 +5,7 @@ let score = document.querySelector(".score");
 let input = document.querySelector("input");
 let btnClear = document.querySelector(".clean-btn");
 
-const URL = "http://localhost:8080/api/bowling";
+const URL = "https://bowling-2skd.onrender.com/api/bowling";
 
 async function loadData() {
     const response = await fetch(URL, {
